@@ -38,6 +38,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [ClaudeMind](#claudemind)
     - [Cline](#cline)
     - [console-chat-gpt](#console-chat-gpt)
+    - [ContextKit](#contextkit)
     - [Copilot-MCP](#copilot-mcp)
     - [Cursor](#cursor)
     - [Continue](#continue)
@@ -388,6 +389,23 @@ Enjoy seamless interactions with ChatGPT, MistralAI, Claude by Anthropic, Grok b
 ![](./screenshots/console-chat-gpt/settings_preview.gif)
 
 </details>
+
+### ContextKit
+
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/eyalzh/context-kit</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+
+A CLI tool and MCP client for creating spec files for AI coding agents. ContextKit generates specs from reusable Jinja2-based templates, filling in context from various MCP sources and user input.
+
 
 ### Copilot-MCP
 
