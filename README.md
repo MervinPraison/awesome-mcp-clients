@@ -25,12 +25,13 @@ A curated list of awesome Model Context Protocol (MCP) clients.
   - [What is MCP?](#what-is-mcp)
   - [Community](#community)
   - [Clients](#clients)
-    - [askit mcp](#askit-mcp)
+    - [askit-mcp](#askit-mcp)
     - [eechat](#eechat)
     - [5ire](#5ire)
     - [AIaW](#aiaw)
     - [BrowseWiz](#browsewiz)
-    - [CarrotAI](#CarrotAI)
+    - [Canvas MCP Client](#canvas-mcp-client)
+    - [CarrotAI](#carrotai)
     - [Chainlit](#chainlit)
     - [ChatMCP](#chatmcp)
     - [Cherry Studio](#cherry-studio)
@@ -61,7 +62,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Runbear](#runbear)
     - [Superinterface](#superinterface)
     - [SeekChat](#seekchat)
-    - [Simple AI](#simple-ai-chat)
+    - [Simple AI](#simple-ai)
     - [Tambo](#tambo)
     - [Tester MCP Client](#tester-mcp-client)
     - [Tome](#tome)
@@ -73,9 +74,10 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Zed](#zed)
     - [MindPal](#mindpal)
     - [WhatsMCP](#whatsmcp)
-    - [Argo-LocalAI](#Argo-LocalAI)
+    - [Argo-LocalAI](#argo-localai)
     - [MCPCLIHost](#mcpclihost)
-    - [Zin MCP Client](#zin-mcp-client)
+    - [Zin-MCP-Client](#zin-mcp-client)
+    - [Agent-cli](#agent-cli)
   - [Servers](#servers)
 
 ### askit-mcp
@@ -196,6 +198,37 @@ It is a flexible tool that can help automate *your* workflows.
 
 ![](./screenshots/browsewiz/agent.png)
 ![](./screenshots/browsewiz/mcp.png)
+
+</details>
+
+### Canvas MCP Client
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/n00bvn/CanvasMCPClient</td></tr>
+<tr><th align="left">Website</th><td>https://canvas-mcp.com/</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, TypeScript</td></tr>
+</table>
+
+Canvas MCP Client is an infinite, zoomable, and pannable canvas. It provides a unified interface for interacting with multiple MCP (Model Context Protocol) servers through a flexible, widget-based system.
+
+**Key Features:**
+
+- Infinite Canvas: Organize your workspace spatially with unlimited zoom and pan capabilities
+- Modular Widgets: Use 12+ pre-built widgets or create your own custom components
+- No-code Widget Builder: Use the widget builder to create your own widgets without coding
+- MCP Integration: Seamlessly connect to multiple MCP servers using the FastMCP library
+- AI-Powered: Configure multiple AI providers (OpenAI, Anthropic, Ollama, Google) for enhanced functionality
+- Template System: Save and share widget and dashboard configurations
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/canvas-mcp-client/infinite-canvas.jpg)
+![example2](./screenshots/canvas-mcp-client/no-code-builder.png)
 
 </details>
 
