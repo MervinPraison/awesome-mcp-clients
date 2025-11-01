@@ -25,6 +25,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
   - [What is MCP?](#what-is-mcp)
   - [Community](#community)
   - [Clients](#clients)
+    - [askit mcp](#askit-mcp)
     - [eechat](#eechat)
     - [5ire](#5ire)
     - [AIaW](#aiaw)
@@ -48,6 +49,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Glue](#glue)
     - [HyperChat](#hyperchat)
     - [kibitz](#kibitz)
+    - [Kiro](#kiro)
     - [LibreChat](#librechat)
     - [MCP Chatbot](#mcp-chatbot)
     - [MCP CLI client](#mcp-cli-client)
@@ -64,6 +66,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Tambo](#tambo)
     - [Tester MCP Client](#tester-mcp-client)
     - [Tome](#tome)
+    - [Vercade](#vercade)
     - [VS Code GitHub Copilot](#vs-code-github-copilot)
     - [Windsurf](#windsurf)
     - [Witsy](#witsy)
@@ -77,6 +80,28 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Zin MCP Client](#zin-mcp-client)
   - [Servers](#servers)
 
+### askit-mcp
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/johnrobinsn/askit</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI, Python library</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+**askit-mcp** is a flexible asyncio Python library and CLI tool that allows various LLM models to extend their abilities by invoking services from Model Context Protocol (MCP) servers and by calling locally-defined Python functions..
+
+`pip install git+https://github.com/johnrobinsn/askit.git`
+
+<details>
+<summary>Screenshots</summary>
+
+![Command Line Interface](./screenshots/askit-mcp/cli.png)
+
+</details>
 
 ### eechat
 
@@ -659,6 +684,28 @@ https://github.com/user-attachments/assets/3f8df448-1c81-4ff2-8598-c48283a4dc00
 
 </details>
 
+### Kiro
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/kirodotdev/Kiro</td></tr>
+<tr><th align="left">Website</th><td>https://kiro.dev</td></tr>
+<tr><th align="left">License</th><td>https://kiro.dev/license/</td></tr>
+<tr><th align="left">Type</th><td>Desktop app, IDE</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>All</td></tr>
+</table>
+
+Kiro is an AI assistant and IDE built to assist developers. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.
+
+<details>
+<summary>Screenshots</summary>
+
+![Kiro Interface](./screenshots/kiro/kiro-interface.png)
+![MCP Integration](./screenshots/kiro/mcp-integration.png)
+
+</details>
+
 ### LibreChat
 
 <table>
@@ -1022,6 +1069,34 @@ Tome is an open source cross-platform desktop app designed for working with loca
 ![MCP Servers](./screenshots/tome/mcp.png)
 </details>
 
+### Vercade
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lintyourcode/vercade</td></tr>
+<tr><th align="left">Website</th><td>https://discord.gg/EMnkGjAh9v</td></tr>
+<tr><th align="left">License</th><td>GPL-3.0</td></tr>
+<tr><th align="left">Type</th><td>Discord bot</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+LLM discord bot with MCP support, customizable personality and scheduling
+
+**Key Features:**
+
+- Invokes an LLM agent every time someone sends a message
+- Integrates with MCP servers
+- Supports all well-known LLM providers
+- Supports custom agent instructions
+
+<details>
+<summary>Screenshots</summary>
+
+![Vercade Discord assistant](./screenshots/vercade/k2.png)
+
+</details>
+
 ### VS Code GitHub Copilot
 
 <table>
@@ -1288,6 +1363,29 @@ Lightweight, Fast, Simple, CLI-Based MCP Client for STDIO MCP Servers, to fill t
 
 ![example1](./screenshots/zin-mcp-client/zin_mcp_1.png)
 ![example2](./screenshots/zin-mcp-client/zin_mcp_2.png)
+
+</details>
+
+
+### Agent-cli
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/belowthetree/agent-cli</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>GPLv3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Rust</td></tr>
+</table>
+
+Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio and NapCat. Any LLM API compatible with the OpenAI API, such as Ollama and DeepSeek, can be configured for use.
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/agent-cli/agentcli.gif)
+![example2](./screenshots/agent-cli/tui.gif)
 
 </details>
 
