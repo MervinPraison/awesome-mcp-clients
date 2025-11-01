@@ -65,6 +65,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Tambo](#tambo)
     - [Tester MCP Client](#tester-mcp-client)
     - [Tome](#tome)
+    - [Vercade](#vercade)
     - [VS Code GitHub Copilot](#vs-code-github-copilot)
     - [Windsurf](#windsurf)
     - [Witsy](#witsy)
@@ -1029,6 +1030,34 @@ Tome is an open source cross-platform desktop app designed for working with loca
 
 ![Chat](./screenshots/tome/chat.png)
 ![MCP Servers](./screenshots/tome/mcp.png)
+</details>
+
+### Vercade
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lintyourcode/vercade</td></tr>
+<tr><th align="left">Website</th><td>https://discord.gg/EMnkGjAh9v</td></tr>
+<tr><th align="left">License</th><td>GPL-3.0</td></tr>
+<tr><th align="left">Type</th><td>Discord bot</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+LLM discord bot with MCP support, customizable personality and scheduling
+
+**Key Features:**
+
+- Invokes an LLM agent every time someone sends a message
+- Integrates with MCP servers
+- Supports all well-known LLM providers
+- Supports custom agent instructions
+
+<details>
+<summary>Screenshots</summary>
+
+![Vercade Discord assistant](./screenshots/vercade/k2.png)
+
 </details>
 
 ### VS Code GitHub Copilot
