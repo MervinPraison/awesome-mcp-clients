@@ -77,6 +77,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Argo-LocalAI](#Argo-LocalAI)
     - [MCPCLIHost](#mcpclihost)
     - [Zin MCP Client](#zin-mcp-client)
+    - [Qordinate](#qordinate)
   - [Servers](#servers)
 
 ### askit-mcp
@@ -1349,6 +1350,29 @@ Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio
 
 ![example1](./screenshots/agent-cli/agentcli.gif)
 ![example2](./screenshots/agent-cli/tui.gif)
+
+</details>
+
+
+### Qordinate
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://qordinate.ai/</td></tr>
+<tr><th align="left">License</th><td>-</td></tr>
+<tr><th align="left">Type</th><td>Chatbot</td></tr>
+<tr><th align="left">Platforms</th><td>WhatsApp, Arattai (coming soon - iMessage, Slack, MS Teams)</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+Qordinate is a personal assistant that talks on your behalf, it knows what to share, when to share and with whom to share. It's available across WhatsApp and Arattai today, with other platforms coming soon. [Learn more](https://qordinate.ai).
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/qordinate/app.png)
+![example2](./screenshots/qordinate/whatsapp.png)
 
 </details>
 
