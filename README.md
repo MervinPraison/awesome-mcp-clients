@@ -52,6 +52,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [LibreChat](#librechat)
     - [MCP Chatbot](#mcp-chatbot)
     - [MCP CLI client](#mcp-cli-client)
+    - [McPico](#mcpico)
     - [MCP Simple Slackbot](#mcp-simple-slackbot)
     - [MCPOmni Connect](#mcpomni-connect)
     - [MCP SuperAssistant](#mcp-superassistant)
@@ -725,6 +726,29 @@ A simple CLI to run LLM prompt and implement MCP client.
 ![](./screenshots/mcp-cli-client/usage.png)
 
 </details>
+
+### McPico
+
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/cryptax/mcpico</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>GPL 3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+A simple CLI to run LLM prompt, attach files, discuss with MCP servers. For multiple LLMs, including local models.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mcpico/mcpico.png)
+
+</details>
+
 
 ### MCP Simple Slackbot
 
