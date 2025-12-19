@@ -50,6 +50,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [kibitz](#kibitz)
     - [Kiro](#kiro)
     - [LibreChat](#librechat)
+    - [LobeHub](#lobehub)
     - [MCP Chatbot](#mcp-chatbot)
     - [MCP CLI client](#mcp-cli-client)
     - [McPico](#mcpico)
@@ -689,6 +690,27 @@ Enhanced ChatGPT Clone: Features Agents, Anthropic, AWS, OpenAI, Assistants API,
 <summary>Screenshots</summary>
 
 ![](./screenshots/librechat/librechat.webp)
+
+</details>
+
+### LobeHub
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lobehub/lobe-chat</td></tr>
+<tr><th align="left">Website</th><td>https://lobehub.com</td></tr>
+<tr><th align="left">License</th><td>MIT license</td></tr>
+<tr><th align="left">Type</th><td>Web app, Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, macOS, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free (Open Source)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, JavaScript</td></tr>
+</table>
+
+Modern AI chat framework with multi-model support: Features OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, Ollama, and 100+ AI models. Includes plugin system, knowledge base, text-to-speech, vision recognition, DALL-E image generation, function calling, multi-agent conversations, PWA support, mobile-responsive design, i18n localization, theme customization, and self-hosting capabilities. Built with Next.js for optimal performance and user experience.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/lobehub/lobehub.webp)
 
 </details>
 
