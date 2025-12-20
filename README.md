@@ -701,7 +701,7 @@ Enhanced ChatGPT Clone: Features Agents, Anthropic, AWS, OpenAI, Assistants API,
 <tr><th align="left">License</th><td>MIT license</td></tr>
 <tr><th align="left">Type</th><td>Web app, Desktop app</td></tr>
 <tr><th align="left">Platforms</th><td>Windows, macOS, Linux, Web</td></tr>
-<tr><th align="left">Pricing</th><td>Free (Open Source)</td></tr>
+<tr><th align="left">Pricing</th><td>Free(Open Source)</td></tr>
 <tr><th align="left">Programming Languages</th><td>TypeScript, JavaScript</td></tr>
 </table>
 
@@ -710,7 +710,8 @@ Modern AI chat framework with multi-model support: Features OpenAI, Anthropic Cl
 <details>
 <summary>Screenshots</summary>
 
-![](./screenshots/lobehub/lobehub.webp)
+![](./screenshots/lobehub/lobehub.png)
+![](./screenshots/lobehub/settings.png)
 
 </details>
 
