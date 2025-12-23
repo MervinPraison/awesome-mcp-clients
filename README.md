@@ -1385,7 +1385,7 @@ Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio
 <tr><th align="left">Website</th><td>https://qordinate.ai/</td></tr>
 <tr><th align="left">License</th><td>-</td></tr>
 <tr><th align="left">Type</th><td>Chatbot</td></tr>
-<tr><th align="left">Platforms</th><td>WhatsApp, Arattai (coming soon - iMessage, Slack, MS Teams)</td></tr>
+<tr><th align="left">Platforms</th><td>[Slack](https://qordinate.ai/slack), [WhatsApp](https://qordinate.ai/whatsapp), (coming soon - iMessage, MS Teams)</td></tr>
 <tr><th align="left">Pricing</th><td>Freemium</td></tr>
 <tr><th align="left">Programming Languages</th><td>-</td></tr>
 </table>
@@ -1395,8 +1395,9 @@ Qordinate is a personal assistant that talks on your behalf, it knows what to sh
 <details>
 <summary>Screenshots</summary>
 
-![example1](./screenshots/qordinate/app.png)
-![example2](./screenshots/qordinate/whatsapp.png)
+![example1](./screenshots/qordinate/slack.png)
+![example2](./screenshots/qordinate/app.png)
+![example3](./screenshots/qordinate/whatsapp.png)
 
 </details>
 
