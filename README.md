@@ -43,7 +43,9 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Cursor](#cursor)
     - [Continue](#continue)
     - [DeepChat](#deepchat)
+    - [DocsGPT](#docsgpt)
     - [Dolphin-MCP](#dolphin-mcp)
+    - [Enola.dev](#enola)
     - [FLUJO](#flujo)
     - [Goose](#goose)
     - [Glue](#glue)
@@ -51,8 +53,10 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [kibitz](#kibitz)
     - [Kiro](#kiro)
     - [LibreChat](#librechat)
+    - [LobeHub](#lobehub)
     - [MCP Chatbot](#mcp-chatbot)
     - [MCP CLI client](#mcp-cli-client)
+    - [McPico](#mcpico)
     - [MCP Simple Slackbot](#mcp-simple-slackbot)
     - [MCPOmni Connect](#mcpomni-connect)
     - [MCP SuperAssistant](#mcp-superassistant)
@@ -66,6 +70,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Tambo](#tambo)
     - [Tester MCP Client](#tester-mcp-client)
     - [Tome](#tome)
+    - [Vercade](#vercade)
     - [VS Code GitHub Copilot](#vs-code-github-copilot)
     - [Windsurf](#windsurf)
     - [Witsy](#witsy)
@@ -76,8 +81,10 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [WhatsMCP](#whatsmcp)
     - [Argo-LocalAI](#argo-localai)
     - [MCPCLIHost](#mcpclihost)
-    - [Zin-MCP-Client](#zin-mcp-client)
     - [Agent-cli](#agent-cli)
+    - [Zin MCP Client](#zin-mcp-client)
+    - [Qordinate](#qordinate)
+    - [PraisonAI](#praisonai)
   - [Servers](#servers)
 
 ### askit-mcp
@@ -511,6 +518,27 @@ DeepChat is a cross-platform desktop AI assistant, MCP client. DeepChat brings t
 
 </details>
 
+### DocsGPT
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/arc53/DocsGPT</td></tr>
+<tr><th align="left">Website</th><td>https://www.docsgpt.cloud//</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app, Self-hosted</td></tr>
+<tr><th align="left">Platforms</th><td>Web, Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, TypeScript</td></tr>
+</table>
+
+DocsGPT is a privacy-focused, open-source AI platform designed to create intelligent agents and enterprise search solutions. As an MCP client, it enables agents to connect with external tools and APIs securely.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/docsgpt/docsgpt.gif)
+
+</details>
+
 ### Dolphin-MCP
 
 <table>
@@ -531,6 +559,39 @@ DeepChat is a cross-platform desktop AI assistant, MCP client. DeepChat brings t
 <summary>Screenshots</summary>
 
 ![](./screenshots/dolphin-mcp/dolphin-mcp.png)
+
+</details>
+
+### Enola
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/enola-dev/enola</td></tr>
+<tr><th align="left">Website</th><td>https://docs.enola.dev</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app with CLI and local Web server</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS (JVM)</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Java</td></tr>
+</table>
+
+**Enola.dev** is an [agentic](https://docs.enola.dev/tutorial/agents/)
+AI toolkit for [various LLMs](https://docs.enola.dev/specs/aiuri/#introduction)
+(incl. e.g. Google Gemini & Anthropic APIs; as well as thousands of local models via Ollama).
+It comes with a number of [built-in tools](https://docs.enola.dev/concepts/tool/),
+and [MCP client support for external tools](https://docs.enola.dev/concepts/mcp/).
+It has [several UIs](https://docs.enola.dev/tutorial/chat):
+
+* Chat Web UI, served by a built-in local HTTP web-server
+* Chat CLI Textual User Interface (TUI) for the terminal (also available via a built-in SSH server)
+* _One-shot_ `ai` agent prompt CLI
+
+It can also [simply invoke (call) any MCP server's tools directly](https://docs.enola.dev/use/mcp/) (without LLM).
+
+<details>
+
+<summary>Screenshots</summary>
+
+![MCP Tools](https://docs.enola.dev/use/mcp/script.svg)
 
 </details>
 
@@ -722,6 +783,28 @@ Enhanced ChatGPT Clone: Features Agents, Anthropic, AWS, OpenAI, Assistants API,
 
 </details>
 
+### LobeHub
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lobehub/lobe-chat</td></tr>
+<tr><th align="left">Website</th><td>https://lobehub.com</td></tr>
+<tr><th align="left">License</th><td>MIT license</td></tr>
+<tr><th align="left">Type</th><td>Web app, Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, macOS, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free(Open Source)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, JavaScript</td></tr>
+</table>
+
+Modern AI chat framework with multi-model support: Features OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, Ollama, and 100+ AI models. Includes plugin system, knowledge base, text-to-speech, vision recognition, DALL-E image generation, function calling, multi-agent conversations, PWA support, mobile-responsive design, i18n localization, theme customization, and self-hosting capabilities. Built with Next.js for optimal performance and user experience.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/lobehub/lobehub.png)
+![](./screenshots/lobehub/settings.png)
+
+</details>
+
 ### MCP Chatbot
 
 <table>
@@ -756,6 +839,29 @@ A simple CLI to run LLM prompt and implement MCP client.
 ![](./screenshots/mcp-cli-client/usage.png)
 
 </details>
+
+### McPico
+
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/cryptax/mcpico</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>GPL 3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+A simple CLI to run LLM prompt, attach files, discuss with MCP servers. For multiple LLMs, including local models.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mcpico/mcpico.png)
+
+</details>
+
 
 ### MCP Simple Slackbot
 
@@ -1064,6 +1170,34 @@ Tome is an open source cross-platform desktop app designed for working with loca
 ![MCP Servers](./screenshots/tome/mcp.png)
 </details>
 
+### Vercade
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lintyourcode/vercade</td></tr>
+<tr><th align="left">Website</th><td>https://discord.gg/EMnkGjAh9v</td></tr>
+<tr><th align="left">License</th><td>GPL-3.0</td></tr>
+<tr><th align="left">Type</th><td>Discord bot</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+LLM discord bot with MCP support, customizable personality and scheduling
+
+**Key Features:**
+
+- Invokes an LLM agent every time someone sends a message
+- Integrates with MCP servers
+- Supports all well-known LLM providers
+- Supports custom agent instructions
+
+<details>
+<summary>Screenshots</summary>
+
+![Vercade Discord assistant](./screenshots/vercade/k2.png)
+
+</details>
+
 ### VS Code GitHub Copilot
 
 <table>
@@ -1355,6 +1489,44 @@ Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio
 ![example2](./screenshots/agent-cli/tui.gif)
 
 </details>
+
+
+### Qordinate
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://qordinate.ai/</td></tr>
+<tr><th align="left">License</th><td>-</td></tr>
+<tr><th align="left">Type</th><td>Chatbot</td></tr>
+<tr><th align="left">Platforms</th><td>[Slack](https://qordinate.ai/slack), [WhatsApp](https://qordinate.ai/whatsapp), (coming soon - iMessage, MS Teams)</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+Qordinate is a personal assistant that talks on your behalf, it knows what to share, when to share and with whom to share. It's available across WhatsApp and Arattai today, with other platforms coming soon. [Learn more](https://qordinate.ai).
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/qordinate/slack.png)
+![example2](./screenshots/qordinate/app.png)
+![example3](./screenshots/qordinate/whatsapp.png)
+
+</details>
+
+### PraisonAI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/MervinPraison/PraisonAI</td></tr>
+<tr><th align="left">Website</th><td>https://docs.praison.ai</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Python library, CLI, Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, JavaScript/TypeScript</td></tr>
+</table>
+
+PraisonAI is a production-ready Multi-AI Agents framework with native MCP integration. Features fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, agentic workflows (route/parallel/loop/repeat), built-in memory, and self-reflection. Available as Python & JavaScript SDKs.
 
 ## Servers
 
