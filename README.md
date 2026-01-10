@@ -915,6 +915,17 @@ Key Features:
 - **Custom System Prompts** - Shape AI personality and behavior
 - **OAuth & Bearer Auth** - Production-ready authentication support
 - **Real-time Testing** - Live server monitoring and direct tool execution
+
+<details>
+<summary>Screenshots</summary>
+
+![image](https://github.com/user-attachments/assets/93b6c1b8-cb30-4775-8f82-551a0fa79c4c)
+![image](https://github.com/user-attachments/assets/2e37e0a7-eed3-4ef3-acde-11f27b323bdd)
+![image](https://github.com/user-attachments/assets/2dee26dd-6e83-4e51-867e-9e1a3b32c5a5)
+![image](https://github.com/user-attachments/assets/781ef697-0658-4b1e-8e16-52f1cc838295)
+
+</details>
+
 ### McPico
 
 
@@ -932,13 +943,6 @@ A simple CLI to run LLM prompt, attach files, discuss with MCP servers. For mult
 
 <details>
 <summary>Screenshots</summary>
-
-![image](https://github.com/user-attachments/assets/93b6c1b8-cb30-4775-8f82-551a0fa79c4c)
-![image](https://github.com/user-attachments/assets/2e37e0a7-eed3-4ef3-acde-11f27b323bdd)
-![image](https://github.com/user-attachments/assets/2dee26dd-6e83-4e51-867e-9e1a3b32c5a5)
-![image](https://github.com/user-attachments/assets/781ef697-0658-4b1e-8e16-52f1cc838295)
-
-</details>
 
 ![](./screenshots/mcpico/mcpico.png)
 
