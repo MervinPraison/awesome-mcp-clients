@@ -1675,6 +1675,14 @@ Key features:
 - Native app: fast & powerful
 - Import configuration from Claude or Cursor
 - Built-in configuration editor
+
+<details>
+<summary>Screenshots</summary>
+
+![CleanShot 2025-04-15 at 22 30 45@2x](https://github.com/user-attachments/assets/0263d468-dbbb-4036-87ec-169329687cdf)
+![CleanShot 2025-04-15 at 22 45 30@2x](https://github.com/user-attachments/assets/a9b3a128-0558-4f3b-8f5e-a2fa0759f2b7)
+</details>
+
 ### Argo-LocalAI
 
 <table>
@@ -1754,11 +1762,6 @@ Lightweight, Fast, Simple, CLI-Based MCP Client for STDIO MCP Servers, to fill t
 
 <details>
 <summary>Screenshots</summary>
-
-![CleanShot 2025-04-15 at 22 30 45@2x](https://github.com/user-attachments/assets/0263d468-dbbb-4036-87ec-169329687cdf)
-
-
-![CleanShot 2025-04-15 at 22 45 30@2x](https://github.com/user-attachments/assets/a9b3a128-0558-4f3b-8f5e-a2fa0759f2b7)
 
 ![example1](./screenshots/zin-mcp-client/zin_mcp_1.png)
 ![example2](./screenshots/zin-mcp-client/zin_mcp_2.png)
