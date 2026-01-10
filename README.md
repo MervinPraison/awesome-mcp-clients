@@ -44,6 +44,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [DeepChat](#deepchat)
     - [DocsGPT](#docsgpt)
     - [Dolphin-MCP](#dolphin-mcp)
+    - [Enola.dev](#enola)
     - [FLUJO](#flujo)
     - [Goose](#goose)
     - [Glue](#glue)
@@ -525,6 +526,39 @@ DocsGPT is a privacy-focused, open-source AI platform designed to create intelli
 <summary>Screenshots</summary>
 
 ![](./screenshots/dolphin-mcp/dolphin-mcp.png)
+
+</details>
+
+### Enola
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/enola-dev/enola</td></tr>
+<tr><th align="left">Website</th><td>https://docs.enola.dev</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app with CLI and local Web server</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS (JVM)</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Java</td></tr>
+</table>
+
+**Enola.dev** is an [agentic](https://docs.enola.dev/tutorial/agents/)
+AI toolkit for [various LLMs](https://docs.enola.dev/specs/aiuri/#introduction)
+(incl. e.g. Google Gemini & Anthropic APIs; as well as thousands of local models via Ollama).
+It comes with a number of [built-in tools](https://docs.enola.dev/concepts/tool/),
+and [MCP client support for external tools](https://docs.enola.dev/concepts/mcp/).
+It has [several UIs](https://docs.enola.dev/tutorial/chat):
+
+* Chat Web UI, served by a built-in local HTTP web-server
+* Chat CLI Textual User Interface (TUI) for the terminal (also available via a built-in SSH server)
+* _One-shot_ `ai` agent prompt CLI
+
+It can also [simply invoke (call) any MCP server's tools directly](https://docs.enola.dev/use/mcp/) (without LLM).
+
+<details>
+
+<summary>Screenshots</summary>
+
+![MCP Tools](https://docs.enola.dev/use/mcp/script.svg)
 
 </details>
 
