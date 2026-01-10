@@ -871,7 +871,7 @@ https://github.com/user-attachments/assets/3f8df448-1c81-4ff2-8598-c48283a4dc00
 ### LangBot
 
 <table>
-<tr><th align="left">GitHub</th><td>https://github.com/RockChinQ/LangBot</td></tr>
+<tr><th align="left">GitHub</th><td>https://github.com/langbot-app/LangBot</td></tr>
 <tr><th align="left">Website</th><td>https://langbot.app</td></tr>
 <tr><th align="left">License</th><td>AGPL-3.0 license</td></tr>
 <tr><th align="left">Type</th><td>Web app</td></tr>
