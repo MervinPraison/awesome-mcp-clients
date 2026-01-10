@@ -1689,7 +1689,7 @@ WhatsMCP is a WhatsApp agent that allows you to interact with MCP servers. It is
 ### Runbear
 
 <table>
-<tr><th align="left">GitHub</th><td>https://github.com/runbear-io/runbear</td></tr>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
 <tr><th align="left">Website</th><td>https://runbear.io</td></tr>
 <tr><th align="left">License</th><td>Proprietary</td></tr>
 <tr><th align="left">Type</th><td>Web app</td></tr>
@@ -1705,6 +1705,12 @@ Key Features:
 * Support for MCP tools in team [communication platforms](https://runbear.io/solutions/integrations/slack/mcp)
 * Integration with remote MCP servers via SSE
 * Managed MCP server options for teams
+
+<details>
+<summary>Screenshots</summary>
+![](./screenshots/runbear/slack-connect-mcp.png)
+</details>
+
 ### mcp-client-go
 
 <table>
@@ -1848,10 +1854,6 @@ Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio
 
 <details>
 <summary>Screenshots</summary>
-
-![](./screenshots/runbear/slack-connect-mcp.png)
-
-</details>
 
 ![example1](./screenshots/agent-cli/agentcli.gif)
 ![example2](./screenshots/agent-cli/tui.gif)
