@@ -1205,6 +1205,13 @@ Key features:
   - Works with both channels and direct messages
 - ✅ Tool Registration: Dynamically register and call MCP tools
 - ✅ Docker container support
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/slack-mcp-client/demo.gif)
+</details>
+
 ### Runbear
 
 <table>
@@ -1222,7 +1229,6 @@ No-code MCP clients for Slack, Microsoft Teams, and Discord with full support fo
 <details>
 <summary>Screenshots</summary>
 
-![](./screenshots/slack-mcp-client/demo.gif)
 ![](./screenshots/runbear/slack-mcp-client.png)
 ![](./screenshots/runbear/teams-mcp-client.png)
 
