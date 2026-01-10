@@ -199,6 +199,14 @@ AIaW is a cross-platform, full-featured and lightweight AI Chat client with full
 </table>
 
 The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/anythingllm/anythingllm.png)
+
+</details>
+
 ### BrowseWiz
 
 <table>
@@ -277,7 +285,6 @@ CarrotAI is an advanced AI agent application that enables real-time streaming ch
 <details>
 <summary>Screenshots</summary>
 
-![](./screenshots/anythingllm/anythingllm.png)
 ![chat](./screenshots/carrotai/carrotai_chat.png)
 ![homepage](./screenshots/carrotai/carrotai_home.png)
 ![seetings](./screenshots/carrotai/carrotai_settings.png)
