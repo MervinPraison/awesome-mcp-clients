@@ -869,6 +869,8 @@ Whether you're a non-technical user wanting to leverage AI workflows or a develo
 ![](./screenshots/klavis-ai/dashboard.png)
 ![](./screenshots/klavis-ai/slack.png)
 ![](./screenshots/klavis-ai/discord.png)
+</details>
+
 ### Kiro
 
 <table>
