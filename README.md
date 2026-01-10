@@ -25,37 +25,129 @@ A curated list of awesome Model Context Protocol (MCP) clients.
   - [What is MCP?](#what-is-mcp)
   - [Community](#community)
   - [Clients](#clients)
+    - [askit-mcp](#askit-mcp)
+    - [eechat](#eechat)
     - [5ire](#5ire)
+    - [AIaW](#aiaw)
+    - [AstrBot](#AstrBot)
+    - [AnythingLLM](#anythingllm)
+    - [BrowseWiz](#browsewiz)
+    - [Canvas MCP Client](#canvas-mcp-client)
+    - [CarrotAI](#carrotai)
+    - [Chainlit](#chainlit)
     - [ChatMCP](#chatmcp)
+    - [Cherry Studio](#cherry-studio)
     - [Claude Desktop](#claude-desktop)
     - [ClaudeMind](#claudemind)
     - [Cline](#cline)
     - [console-chat-gpt](#console-chat-gpt)
+    - [ContextKit](#contextkit)
     - [Copilot-MCP](#copilot-mcp)
     - [Cursor](#cursor)
     - [Continue](#continue)
+    - [DeepChat](#deepchat)
+    - [DocsGPT](#docsgpt)
     - [Dolphin-MCP](#dolphin-mcp)
+    - [Fastchat MCP](#fastchat-mcp)
+    - [Enola.dev](#enola)
     - [FLUJO](#flujo)
     - [Goose](#goose)
-    - [http4k MCP Desktop](#http4k-mcp-desktop)
+    - [Glue](#glue)
     - [HyperChat](#hyperchat)
+    - [JDBCX](#jdbcx)
     - [kibitz](#kibitz)
     - [LangBot](#LangBot)
+    - [Klavis AI](#klavis-ai)
+    - [Kiro](#kiro)
     - [LibreChat](#librechat)
+    - [Lutra](#lutra)
+    - [mcp-agent](#mcp-agent)
+    - [LobeHub](#lobehub)
     - [MCP Chatbot](#mcp-chatbot)
     - [MCP CLI client](#mcp-cli-client)
+    - [MCP Playground](#mcp-playground)
+    - [McPico](#mcpico)
     - [MCP Simple Slackbot](#mcp-simple-slackbot)
+    - [Memex](#memex)
     - [MCPOmni Connect](#mcpomni-connect)
+    - [MCP SuperAssistant](#mcp-superassistant)
+    - [Nerve](#nerve)
     - [NextChat](#nextchat)
     - [oterm](#oterm)
+    - [Slack MCP Client](#slack-mcp-client)
+    - [Runbear](#runbear)
     - [Superinterface](#superinterface)
     - [SeekChat](#seekchat)
+    - [Simple AI](#simple-ai)
+    - [Tambo](#tambo)
     - [Tester MCP Client](#tester-mcp-client)
+    - [Tiles Notebook](#tiles-notebook)
+    - [Tome](#tome)
+    - [Vercade](#vercade)
+    - [VS Code GitHub Copilot](#vs-code-github-copilot)
+    - [Windsurf](#windsurf)
     - [Witsy](#witsy)
     - [Enconvo](#enconvo)
     - [y-cli](#y-cli)
     - [Zed](#zed)
+    - [MindPal](#mindpal)
+    - [WhatsMCP](#whatsmcp)
+    - [Runbear](#runbear)
+    - [BoltAI](#boltai)
+    - [Argo-LocalAI](#argo-localai)
+    - [MCPCLIHost](#mcpclihost)
+    - [Agent-cli](#agent-cli)
+    - [Zin MCP Client](#zin-mcp-client)
+    - [Qordinate](#qordinate)
+    - [PraisonAI](#praisonai)
   - [Servers](#servers)
+
+### askit-mcp
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/johnrobinsn/askit</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI, Python library</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+**askit-mcp** is a flexible asyncio Python library and CLI tool that allows various LLM models to extend their abilities by invoking services from Model Context Protocol (MCP) servers and by calling locally-defined Python functions..
+
+`pip install git+https://github.com/johnrobinsn/askit.git`
+
+<details>
+<summary>Screenshots</summary>
+
+![Command Line Interface](./screenshots/askit-mcp/cli.png)
+
+</details>
+
+### eechat
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/Lucassssss/eechat</td></tr>
+<tr><th align="left">Website</th><td>https://www.ee.chat/</td></tr>
+<tr><th align="left">License</th><td>Modified Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+An open-source, cross-platform desktop application that seamlessly connects with full support for MCP, across Linux, macOS, and Windows.
+
+
+<details>
+<summary>Screenshots</summary>
+
+![example](./screenshots/eechat/mcp_main.png)
+![add-mcp](./screenshots/eechat/mcp_add.png)
+![mcp-env](./screenshots/eechat/mcp_bin.png)
+
+</details>
 
 ### 5ire
 
@@ -75,6 +167,181 @@ A curated list of awesome Model Context Protocol (MCP) clients.
 <summary>Screenshots</summary>
 
 https://github.com/user-attachments/assets/a27494c5-437d-481c-a25f-74cfa5a2bc45
+
+</details>
+
+### AIaW
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/NitroRCr/AIaW</td></tr>
+<tr><th align="left">Website</th><td>https://aiaw.app/</td></tr>
+<tr><th align="left">License</th><td>BSD 3-Clause</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Vue, TypeScript</td></tr>
+</table>
+
+AIaW is a cross-platform, full-featured and lightweight AI Chat client with full support for MCP.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/aiaw/plugins.png)
+![](./screenshots/aiaw/dialog.png)
+![](./screenshots/aiaw/dark.png)
+
+</details>
+
+### AstrBot
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/AstrBotDevs/AstrBot</td></tr>
+<tr><th align="left">Website</th><td>https://astrbot.app/</td></tr>
+<tr><th align="left">License</th><td>AGPL-3.0 license</td></tr>
+<tr><th align="left">Type</th><td>LLM chatbot and development framework</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux, Android</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Vue, Python</td></tr>
+</table>
+
+AstrBot is an Easy-to-use multi-platform LLM chatbot and development framework Platform supports QQ, QQ channel, Telegram, WeChat, Qiwei, Lark | MCP server, OpenAI, DeepSeek, Gemini, Silicon Flow, Dark Side of the Moon, Ollama, OneAPI, Dify, etc. Comes with WebUI.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/astrbot/plugins.png)
+![](./screenshots/astrbot/chat_example.png)
+![](./screenshots/astrbot/chat_qq_example_without_avater.png)
+</details>
+
+### AnythingLLM
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/Mintplex-Labs/anything-llm</td></tr>
+<tr><th align="left">Website</th><td>https://anythingllm.com/</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Desktop, Docker, Cloud-hosted</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux, Docker, Cloud</td></tr>
+<tr><th align="left">Pricing</th><td>Free app, paid hosting</td></tr>
+<tr><th align="left">Programming Languages</th><td>JavaScript</td></tr>
+</table>
+
+The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/anythingllm/anythingllm.png)
+
+</details>
+
+### BrowseWiz
+
+<table>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
+<tr><th align="left">Website</th><td>https://browsewiz.com</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Browser extension</td></tr>
+<tr><th align="left">Platforms</th><td>Chromium-based desktop browsers</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+BrowseWiz is a *customizable* AI Chat, AI Assistant and AI Agent for browser's side panel.
+It is a flexible tool that can help automate *your* workflows.
+
+**Key Features:**
+- give AI access to contexts: files, active tab, YT video transcript, text selected on a page
+- manage collection of prompts, add 1-click prompt buttons
+- set and manage system instructions
+- bring your own key or model (OpenAI API-compatible)
+- add tools for agentic capabilities via webhooks/APIs + JSON schema or by providing MCP server URLs (supports streamable HTTP and SSE)
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/browsewiz/agent.png)
+![](./screenshots/browsewiz/mcp.png)
+
+</details>
+
+### Canvas MCP Client
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/n00bvn/CanvasMCPClient</td></tr>
+<tr><th align="left">Website</th><td>https://canvas-mcp.com/</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, TypeScript</td></tr>
+</table>
+
+Canvas MCP Client is an infinite, zoomable, and pannable canvas. It provides a unified interface for interacting with multiple MCP (Model Context Protocol) servers through a flexible, widget-based system.
+
+**Key Features:**
+
+- Infinite Canvas: Organize your workspace spatially with unlimited zoom and pan capabilities
+- Modular Widgets: Use 12+ pre-built widgets or create your own custom components
+- No-code Widget Builder: Use the widget builder to create your own widgets without coding
+- MCP Integration: Seamlessly connect to multiple MCP servers using the FastMCP library
+- AI-Powered: Configure multiple AI providers (OpenAI, Anthropic, Ollama, Google) for enhanced functionality
+- Template System: Save and share widget and dashboard configurations
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/canvas-mcp-client/infinite-canvas.jpg)
+![example2](./screenshots/canvas-mcp-client/no-code-builder.png)
+
+</details>
+
+### CarrotAI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/Xingsandesu/CarrotAI</td></tr>
+<tr><th align="left">Website</th><td>https://jintongshu.com/solutions/agent/</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0<a href="https://raw.githubusercontent.com/Xingsandesu/CarrotAI/refs/heads/main/LICENSE">*</a></td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Dart, Python</td></tr>
+</table>
+
+CarrotAI is an advanced AI agent application that enables real-time streaming chat using Server-Sent Events (SSE) and Streamable HTTP, with seamless integration of the Model Control Protocol (MCP). It supports concurrent connections to multiple SSE MCP servers and offers a multilingual user interface in English, Chinese, and Japanese.
+
+<details>
+<summary>Screenshots</summary>
+
+![chat](./screenshots/carrotai/carrotai_chat.png)
+![homepage](./screenshots/carrotai/carrotai_home.png)
+![seetings](./screenshots/carrotai/carrotai_settings.png)
+![app market](./screenshots/carrotai/carrotai_shop.png)
+![install app](./screenshots/carrotai/carrotai_env.png)
+![app installed](./screenshots/carrotai/carrotai_myapps.png)
+
+</details>
+
+### Chainlit
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/chainlit/chainlit</td></tr>
+<tr><th align="left">Website</th><td>https://chainlit.io/</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+Chainlit is a python framework to build conversational AI apps with support for MCP.
+
+<details>
+<summary>Screenshots</summary>
+
+![example](./screenshots/chainlit/example.png)
+![add-mcp](./screenshots/chainlit/add-mcp.png)
+![manage-mcps](./screenshots/chainlit/manage-mcps.png)
 
 </details>
 
@@ -99,6 +366,37 @@ ChatMCP is an AI chat client implementing the Model Context Protocol (MCP).
 ![](./screenshots/chatmcp/settings.png)
 
 </details>
+
+### Cherry Studio
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/CherryHQ/cherry-studio</td></tr>
+<tr><th align="left">Website</th><td>https://cherry-ai.com</td></tr>
+<tr><th align="left">License</th><td><a href="https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE">Apache 2.0 + Addendum Terms*</a></td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+**Cherry Studio** is a desktop client that supports for multiple LLM providers, available on Windows, Mac and Linux.
+
+**Feature:**
+
+- **Multi-Model Support**: Integrates cloud (OpenAI, Gemini, Anthropic), web AI (Claude, Perplexity), and local models (Ollama, LM Studio).
+- **AI Assistants**: 300+ presets, custom creation, and multi-model parallel chats.
+- **Doc Processing**: Handles text/images/Office/PDF, WebDAV, Mermaid, and code highlighting.
+- **Productivity**: Global search, topic management, AI translation, drag-drop, mini-programs, and **MCP server**.
+- **UX**: Cross-platform (Win/Mac/Linux), plug-and-play, light/dark themes, transparent UI, full Markdown, and easy sharing.
+
+<details>
+<summary>Screenshots</summary>
+
+![preview](./screenshots/cherry-studio/preview.png)
+![settings](./screenshots/cherry-studio/settings.png)
+
+</details>
+
+
 
 ### Claude Desktop
 
@@ -188,6 +486,23 @@ Enjoy seamless interactions with ChatGPT, MistralAI, Claude by Anthropic, Grok b
 
 </details>
 
+### ContextKit
+
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/eyalzh/context-kit</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+
+A CLI tool and MCP client for creating spec files for AI coding agents. ContextKit generates specs from reusable Jinja2-based templates, filling in context from various MCP sources and user input.
+
+
 ### Copilot-MCP
 
 <table>
@@ -255,6 +570,49 @@ Continue is the leading open-source AI code assistant. You can connect any model
 
 </details>
 
+### DeepChat
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/thinkinaixyz/deepchat</td></tr>
+<tr><th align="left">Website</th><td>https://deepchat.thinkinai.xyz/</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+DeepChat is a cross-platform desktop AI assistant, MCP client. DeepChat brings the power of AI to your desktop with privacy and efficiency, making it your ideal companion for productive work.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/deepchat/deepchat.png)
+![](./screenshots/deepchat/setting.png)
+
+</details>
+
+### DocsGPT
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/arc53/DocsGPT</td></tr>
+<tr><th align="left">Website</th><td>https://www.docsgpt.cloud//</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app, Self-hosted</td></tr>
+<tr><th align="left">Platforms</th><td>Web, Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, TypeScript</td></tr>
+</table>
+
+DocsGPT is a privacy-focused, open-source AI platform designed to create intelligent agents and enterprise search solutions. As an MCP client, it enables agents to connect with external tools and APIs securely.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/docsgpt/docsgpt.gif)
+
+</details>
+
 ### Dolphin-MCP
 
 <table>
@@ -278,18 +636,85 @@ Continue is the leading open-source AI code assistant. You can connect any model
 
 </details>
 
+### Fastchat MCP
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/rb58853/fastchat-mcp</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+#### Overview
+
+Fastchat-mcp is a Python chat client designed to simplify connection to MCP servers through the `httpstream` or `stdio` transfer protocols. Its intuitive design allows easy configuration and management of connections to both public and private MCP servers with authentication, using a JSON-format configuration file.
+
+This package offers a clean and accessible terminal interface, ideal for quick chat testing without requiring complex setups. Additionally, it includes a `Chat` module (class) intended for advanced and flexible development, which can be easily integrated into custom projects, providing greater control and adaptability to the developer’s needs.
+
+#### Installation
+
+```shell
+pip install fastchat-mcp
+```
+
+#### Future
+
+Future versions are expected to include additional features such as voice systems, quick integrations with databases, built-in websocket support for frontend connections, among other useful functionalities. We invite you to follow this repository to stay updated on the latest news and improvements implemented.
+
+<details>
+  
+<summary>Screenshots</summary>
+
+<https://github.com/user-attachments/assets/1fcb0db8-5798-4745-8711-4b93198e36cc>
+### Enola
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/enola-dev/enola</td></tr>
+<tr><th align="left">Website</th><td>https://docs.enola.dev</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app with CLI and local Web server</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS (JVM)</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Java</td></tr>
+</table>
+
+**Enola.dev** is an [agentic](https://docs.enola.dev/tutorial/agents/)
+AI toolkit for [various LLMs](https://docs.enola.dev/specs/aiuri/#introduction)
+(incl. e.g. Google Gemini & Anthropic APIs; as well as thousands of local models via Ollama).
+It comes with a number of [built-in tools](https://docs.enola.dev/concepts/tool/),
+and [MCP client support for external tools](https://docs.enola.dev/concepts/mcp/).
+It has [several UIs](https://docs.enola.dev/tutorial/chat):
+
+* Chat Web UI, served by a built-in local HTTP web-server
+* Chat CLI Textual User Interface (TUI) for the terminal (also available via a built-in SSH server)
+* _One-shot_ `ai` agent prompt CLI
+
+It can also [simply invoke (call) any MCP server's tools directly](https://docs.enola.dev/use/mcp/) (without LLM).
+
+<details>
+
+<summary>Screenshots</summary>
+
+![MCP Tools](https://docs.enola.dev/use/mcp/script.svg)
+
+</details>
+
 ### FLUJO
+
 <table>
 <tr><th align="left">GitHub</th><td>https://github.com/mario-andreschak/FLUJO</td></tr>
 <tr><th align="left">Website</th><td>flujo.orchestraight.co</td></tr>
 <tr><th align="left">License</th><td>MIT</td></tr>
-<tr><th align="left">Type</th><td>Next.js/Node Application</td></tr>
-<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
 <tr><th align="left">Pricing</th><td>Free</td></tr>
-<tr><th align="left">Programming Languages</th><td>Typescript</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
 </table>
 
-Think n8n + ChatGPT. **FLUJO** is an desktop application that integrates with MCP to provide a workflow-builder interface for AI interactions. Built with Next.js and React, it supports both online and offline (ollama) models, it manages API Keys and environment variables centrally and can install MCP Servers from GitHub. FLUJO has an ChatCompletions endpoint and flows can be executed from other AI applications like Cline, Roo or Claude. 
+Think n8n + ChatGPT. **FLUJO** is a desktop application that integrates with MCP to provide a workflow-builder interface for AI interactions. Built with Next.js and React, it supports both online and offline (ollama) models, it manages API Keys and environment variables centrally and can install MCP Servers from GitHub. FLUJO has a ChatCompletions endpoint and flows can be executed from other AI applications like Cline, Roo or Claude. 
 
 - Environment & API Key Management
 - Model Management
@@ -346,24 +771,27 @@ Goose is a general-purpose AI agent that can dynamically plug into new extension
 
 </details>
 
-### http4k MCP Desktop
+### Glue
 
 <table>
-<tr><th align="left">GitHub</th><td>https://github.com/http4k/mcp-desktop</td></tr>
-<tr><th align="left">Website</th><td>https://mcp.http4k.org</td></tr>
-<tr><th align="left">License</th><td>Proprietary</td></tr>
-<tr><th align="left">Type</th><td>StdIO -> Remote MCP proxy</td></tr>
-<tr><th align="left">Platforms</th><td>MacOS, Windows, Linux</td></tr>
-<tr><th align="left">Pricing</th><td>Per seat (see site). Free for non-commercial/non-profit/research</td></tr>
-<tr><th align="left">Programming Languages</th><td>Native binary, written in Kotlin</td></tr>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://glue.ai</td></tr>
+<tr><th align="left">License</th><td>-</td></tr>
+<tr><th align="left">Type</th><td>Web app, Desktop app, Mobile app</td></tr>
+<tr><th align="left">Platforms</th><td>Web, MacOS, Windows, Mobile</td></tr>
+<tr><th align="left">Pricing</th><td>$8/user/month</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
 </table>
 
-The http4k MCP Desktop Client serves as a proxy that enables communication between desktop applications and MCP servers. While it works with any MCP-compliant server, it's specially optimized for servers built using the [http4k MCP SDK](https://mcp.http4k.org).
+Glue is a full-featured, thread-first team chat platform with a built-in AI agent and support for MCP, enabling teams to leverage intelligent tools and insights. [Learn more.](https://glue.ai/labs)
 
-**Features**
-- Multiple remote transport options: SSE (Server-Sent Events), JSON-RPC (stateless) and WebSocket.
-- Various standard authentication methods: API Key, Bearer Token, Basic Auth, and OAuth
-- Customizable reconnection logic
+<details>
+<summary>Screenshots</summary>
+
+![Glue MCP Hero](./screenshots/glue/glue-mcp-hero.jpg)
+![Glue Create Issue](./screenshots/glue/glue-create-issue.png)
+
+</details>
 
 ### HyperChat
 
@@ -396,6 +824,27 @@ HyperChat is an open Chat client that can use various LLM APIs to provide the be
 ![](./screenshots/hyperchat/image46.png)
 ![](./screenshots/hyperchat/image48.png)
 
+</details>
+
+### JDBCX
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/jdbcx/jdbcx</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI, JDBC driver</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Java</td></tr>
+</table>
+
+JDBCX extends JDBC by providing enhanced support for data formats and compression, object mapping, advanced type conversion, multi-language query capabilities, and MCP support.
+
+<details>
+<summary>Screenshots</summary>
+
+![CLI](./screenshots/jdbcx/cli.png)
+![JDBC Client - DBeaver](./screenshots/jdbcx/dbeaver.png)
 </details>
 
 ### kibitz
@@ -432,11 +881,55 @@ https://github.com/user-attachments/assets/3f8df448-1c81-4ff2-8598-c48283a4dc00
 </table>
 
 LangBot is an open-source platform for creating LLM based instant messaging bots. It supports multi platforms like Discord, Telegram, WeChat, QQ. Currently supports LLMs from OpenAI, Anthropic, DeepSeek, Ollama, and more. And easy for users to create agents with MCP or plugins. Users can also customize their experience through WebUI, or create plugins to extend the functionality of the bot.
+### Klavis AI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/Klavis-AI/klavis</td></tr>
+<tr><th align="left">Website</th><td>https://www.klavis.ai</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Slack/Discord bots, Web UI, Hosted Service</td></tr>
+<tr><th align="left">Platforms</th><td>Slack, Discord, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Open Source: Free. Hosted: Freemium </td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, Typescript</td></tr>
+</table>
+
+Klavis AI is building open-source infrastructure to make Model Context Protocols (MCPs) easy for everyone. We provide:
+
+- 💬 Slack & Discord Clients: Run MCPs directly from your favorite messaging platforms
+- ☁️ Hosted MCP Servers: Access powerful tools without infrastructure management
+- 🎛️ Simple Web UI: Configure and manage everything with no coding required
+
+Whether you're a non-technical user wanting to leverage AI workflows or a developer looking to build and scale MCPs, Klavis makes it simple.
+
+<details>
+<summary>Screenshots</summary>
+  
+![](./screenshots/klavis-ai/home.png)
+![](./screenshots/klavis-ai/dashboard.png)
+![](./screenshots/klavis-ai/slack.png)
+![](./screenshots/klavis-ai/discord.png)
+</details>
+
+### Kiro
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/kirodotdev/Kiro</td></tr>
+<tr><th align="left">Website</th><td>https://kiro.dev</td></tr>
+<tr><th align="left">License</th><td>https://kiro.dev/license/</td></tr>
+<tr><th align="left">Type</th><td>Desktop app, IDE</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>All</td></tr>
+</table>
+
+Kiro is an AI assistant and IDE built to assist developers. Kiro helps you do your best work by bringing structure to AI coding with spec-driven development.
 
 <details>
 <summary>Screenshots</summary>
 
 ![](./screenshots/langbot/langbot.png)
+![Kiro Interface](./screenshots/kiro/kiro-interface.png)
+![MCP Integration](./screenshots/kiro/mcp-integration.png)
 
 </details>
 
@@ -458,6 +951,82 @@ Enhanced ChatGPT Clone: Features Agents, Anthropic, AWS, OpenAI, Assistants API,
 <summary>Screenshots</summary>
 
 ![](./screenshots/librechat/librechat.webp)
+
+</details>
+
+### Lutra
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://lutra.ai/</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Any</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+Lutra is the first AI task agent that connects all your work apps. It is designed to turn your conversations into automated workflows. Lutra understands your goals and actions it can take, and it automatically determines how to work with your apps to get tasks done. After completing a task, you can create playbooks which save the steps as reusable automations. Lutra connects with MCP servers easily: you only need to provide the server URL and it does all the setup behind the scenes.
+
+<details>
+<summary>Screenshots</summary>
+Connect to MCP server:
+
+![](./screenshots/lutra/connect-mcp-server.png)
+
+Chat and create automations:
+
+![](./screenshots/lutra/chat-and-create.png)
+
+Save playbooks:
+
+![](./screenshots/lutra/create-playbook.gif)
+</details>
+
+### mcp-agent
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lastmile-ai/mcp-agent</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Python library</td></tr>
+<tr><th align="left">Platforms</th><td>-</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+**`mcp-agent`** is a simple, composable framework to build agents using [Model Context Protocol](https://modelcontextprotocol.io/introduction).
+
+**Inspiration**: Anthropic announced 2 foundational updates for AI application developers:
+
+1. [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) - a standardized interface to let any software be accessible to AI assistants via MCP servers.
+2. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) - a seminal writeup on simple, composable patterns for building production-ready AI agents.
+
+`mcp-agent` puts these two foundational pieces into an AI application framework:
+
+1. It handles the pesky business of managing the lifecycle of MCP server connections so you don't have to.
+2. It implements every pattern described in Building Effective Agents, and does so in a _composable_ way, allowing you to chain these patterns together.
+3. **Bonus**: It implements [OpenAI's Swarm](https://github.com/openai/swarm) pattern for multi-agent orchestration, but in a model-agnostic way.
+
+### LobeHub
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lobehub/lobe-chat</td></tr>
+<tr><th align="left">Website</th><td>https://lobehub.com</td></tr>
+<tr><th align="left">License</th><td>MIT license</td></tr>
+<tr><th align="left">Type</th><td>Web app, Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, macOS, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free(Open Source)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, JavaScript</td></tr>
+</table>
+
+Modern AI chat framework with multi-model support: Features OpenAI, Anthropic Claude, Google Gemini, Azure OpenAI, Ollama, and 100+ AI models. Includes plugin system, knowledge base, text-to-speech, vision recognition, DALL-E image generation, function calling, multi-agent conversations, PWA support, mobile-responsive design, i18n localization, theme customization, and self-hosting capabilities. Built with Next.js for optimal performance and user experience.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/lobehub/lobehub.png)
+![](./screenshots/lobehub/settings.png)
 
 </details>
 
@@ -496,6 +1065,60 @@ A simple CLI to run LLM prompt and implement MCP client.
 
 </details>
 
+### MCP Playground
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://mcpsplayground.com/chat</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+MCP Playground is a comprehensive web-based MCP client for testing Claude and Gemini models with MCP server integration. Features dual AI provider support, advanced tool management with granular access control, custom system prompts, OAuth authentication, and real-time server monitoring. Perfect for testing MCP servers, comparing AI providers, and debugging tool implementations without writing code.
+
+Key Features:
+- **Dual AI Support** - Claude & Gemini models with seamless switching
+- **Smart Tool Control** - Restrict which tools AI can access (all/selected/none)  
+- **Custom System Prompts** - Shape AI personality and behavior
+- **OAuth & Bearer Auth** - Production-ready authentication support
+- **Real-time Testing** - Live server monitoring and direct tool execution
+
+<details>
+<summary>Screenshots</summary>
+
+![image](https://github.com/user-attachments/assets/93b6c1b8-cb30-4775-8f82-551a0fa79c4c)
+![image](https://github.com/user-attachments/assets/2e37e0a7-eed3-4ef3-acde-11f27b323bdd)
+![image](https://github.com/user-attachments/assets/2dee26dd-6e83-4e51-867e-9e1a3b32c5a5)
+![image](https://github.com/user-attachments/assets/781ef697-0658-4b1e-8e16-52f1cc838295)
+
+</details>
+
+### McPico
+
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/cryptax/mcpico</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>GPL 3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+A simple CLI to run LLM prompt, attach files, discuss with MCP servers. For multiple LLMs, including local models.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mcpico/mcpico.png)
+
+</details>
+
+
 ### MCP Simple Slackbot
 
 <table>
@@ -517,6 +1140,38 @@ A simple Slack bot that uses LLMs and the Model Context Protocol (MCP) tools.
 
 </details>
 
+### Memex
+
+<table>
+<tr><th align="left">GitHub</th><td>Not Open Source</td></tr>
+<tr><th align="left">Website</th><td>https://memex.tech/</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+**Memex** is the first MCP client and MCP server builder in one desktop app. Unlike traditional MCP clients that only consume existing servers, Memex can create custom MCP servers from natural language prompts, immediately integrate them into its toolkit, and use them to solve problems—all within a single conversation.
+
+**Key MCP Features:**
+- **Prompt-to-MCP Server**: Generate fully functional MCP servers from natural language descriptions
+- **Self-Testing & Debugging**: Autonomously test, debug, and improve created MCP servers
+- **Universal MCP Client**: Works with any MCP server through intuitive, natural language integration
+- **Curated MCP Directory**: Access to tested, one-click installable MCP servers (Neon, Netlify, GitHub, Context7, and more)
+- **Multi-Server Orchestration**: Leverage multiple MCP servers simultaneously for complex workflows
+
+This unique dual capability of creating AND consuming MCP tools makes Memex the most versatile all-in-one solution in the MCP ecosystem.
+
+<details>
+<summary>Screenshots</summary>
+
+![MCP Server Directory](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/8a4e8495-68e5-4848-a895-0be95ec41b01/Screenshot_2025-06-17_at_3.38.13_PM.png?t=1750189420)
+![Multi-Agent Orchestration](https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/10227cbc-36f6-44b4-83ec-5c33b742d667/2025-06-17_15.34.55.gif?t=1750188929)
+![Memex Interface](https://github.com/user-attachments/assets/6a1b6e76-5d5c-4ba4-87ee-70a31f0bc4ce)
+
+</details>
+
 ### MCPOmni Connect
 
 <table>
@@ -524,18 +1179,61 @@ A simple Slack bot that uses LLMs and the Model Context Protocol (MCP) tools.
 <tr><th align="left">Website</th><td>-</td></tr>
 <tr><th align="left">License</th><td>MIT</td></tr>
 <tr><th align="left">Type</th><td>CLI</td></tr>
-<tr><th align="left">Platforms</th><td>Linux</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
 <tr><th align="left">Pricing</th><td>Free</td></tr>
 <tr><th align="left">Programming Languages</th><td>Python</td></tr>
 </table>
 
-A powerful universal CLI client for MCP featuring stdio/SSE transport protocols, OpenAI model integration, dynamic prompt management with flexible argument formats (JSON/key-value), intelligent tool orchestration, and cross-server resource handling. Supports advanced features like context-aware execution, automatic tool selection, and real-time response handling.
+A powerful universal CLI client for MCP Servers that provides seamless integration with multiple protocols, AI models, and tools through an intelligent interface.
+
 `uv add mcpomni-connect` or `pip install mcpomni-connect`
 
 <details>
 <summary>Screenshots</summary>
 
 ![mcp_client_new1](https://github.com/user-attachments/assets/9c4eb3df-d0d5-464c-8815-8f7415a47fce)
+
+</details>
+
+### MCP SuperAssistant
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/srbhptl39/MCP-SuperAssistant</td></tr>
+<tr><th align="left">Website</th><td>https://mcpsuperassistant.ai/</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Chrome Extenstion</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+Add MCP Capabilities to Chatgpt, Gemini, Grok, Google AI Studio, DeepSeek, AI Studio, OpenRouter, T3 Chat, Mistral and Github Copilot. This extension allows you to connect to any MCP server and use its tools, models, and capabilities directly from your browser without any API key required in these Chat Platforms.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mcp-superassistant/chatgpt.jpg)
+
+</details>
+
+### Nerve
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/evilsocket/nerve</td></tr>
+<tr><th align="left">Website</th><td>https://github.com/evilsocket/nerve</td></tr>
+<tr><th align="left">License</th><td>GPL3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+Nerve is an ADK ( Agent Development Kit ) and CLI designed to be a simple yet powerful platform for creating and executing LLM-based agents fully integrated with MCP.
+
+<details>
+<summary>Screenshots</summary>
+
+[![asciicast](https://asciinema.org/a/710433.svg)](https://asciinema.org/a/710433)
 
 </details>
 
@@ -551,7 +1249,7 @@ A powerful universal CLI client for MCP featuring stdio/SSE transport protocols,
 <tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
 </table>
 
-NextChat: Light and Fast AI Assistant, with Claude, DeepSeek, GPT4, Gemini Pro & MCP support.
+Light and Fast AI Assistant, with Claude, DeepSeek, GPT4, Gemini Pro & MCP support.
 
 <details>
 <summary>Screenshots</summary>
@@ -579,6 +1277,59 @@ A terminal client for Ollama, with support for MCP servers.
 
 ![](./screenshots/oterm/chat.png)
 ![](./screenshots/oterm/mcp.svg)
+
+</details>
+
+### Slack MCP Client
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/tuannvm/slack-mcp-client</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Slack bot client</td></tr>
+<tr><th align="left">Platforms</th><td>Slack</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Go</td></tr>
+</table>
+
+This project provides a Slack bot client that serves as a bridge between Slack and Model Context Protocol (MCP) servers. By leveraging Slack as the user interface, it allows LLM models to interact with multiple MCP servers using standardized MCP tools.
+
+Key features:
+
+- ✅ Multi-Mode MCP Client:
+  - SSE for real-time communication
+  - HTTP transport for JSON-RPC
+  - stdio for local development and testing
+- ✅ Slack Integration:
+  - Socket Mode for secure, firewall-friendly communication
+  - Works with both channels and direct messages
+- ✅ Tool Registration: Dynamically register and call MCP tools
+- ✅ Docker container support
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/slack-mcp-client/demo.gif)
+</details>
+
+### Runbear
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/runbear-io</td></tr>
+<tr><th align="left">Website</th><td>https://runbear.io</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Slack, MS Teams, Discord app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+No-code MCP clients for Slack, Microsoft Teams, and Discord with full support for MCP servers, connected knowledge sources, and custom instructions.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/runbear/slack-mcp-client.png)
+![](./screenshots/runbear/teams-mcp-client.png)
 
 </details>
 
@@ -622,7 +1373,7 @@ Key features:
 <tr><th align="left">Type</th><td>Desktop app</td></tr>
 <tr><th align="left">Platforms</th><td>Windows, MacOS</td></tr>
 <tr><th align="left">Pricing</th><td>Free</td></tr>
-<tr><th align="left">Programming Languages</th><td>Javascript</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
 </table>
 
 ✨ A Sleek and Powerful AI Chat Desktop Application ✨
@@ -634,6 +1385,50 @@ SeekChat supports MCP tool execution, enabling AI to directly control your compu
 
 ![](./screenshots/seekchat/screenshot-chat.png)
 ![](./screenshots/seekchat/screenshot-setting-mcp.png)
+</details>
+
+### Simple AI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/gcc3/simple-ai-chat</td></tr>
+<tr><th align="left">Website</th><td>https://simple-ai.io</td></tr>
+<tr><th align="left">License</th><td>Simple AI License</td></tr>
+<tr><th align="left">Type</th><td>Web/CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Web/npm</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>JavaScript</td></tr>
+</table>
+
+Simple AI (simple-ai-io) is a command-based web/cli application, supports MCP.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/simple-ai-chat/mcp-settings.png)
+![](./screenshots/simple-ai-chat/fetch.png)
+
+</details>
+
+### Tambo
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/tambo-ai/tambo</td></tr>
+<tr><th align="left">Website</th><td>https://tambo.co</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+[Tambo](https://tambo.co) is a platform for building custom chat experiences, with integrated custom user interface components.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/tambo/chat-with-graph.png)
+![](./screenshots/tambo/client-side-mcp.png)
+
 </details>
 
 ### Tester MCP Client
@@ -665,6 +1460,127 @@ Key features:
 ![](./screenshots/tester-mcp-client/setup.png)
 ![](./screenshots/tester-mcp-client/chat-ui.png)
 
+</details>
+
+### Tiles Notebook
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/tileshq/tiles</td></tr>
+<tr><th align="left">Website</th><td>https://www.tiles.run/</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+Tiles is a notebook interface that makes working with AI agents easier.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/tiles.run/notebook-ui.png)
+
+</details>
+
+
+### Tome
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/runebookai/tome</td></tr>
+<tr><th align="left">Website</th><td>https://runebook.ai</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Rust, Typescript</td></tr>
+</table>
+
+Tome is an open source cross-platform desktop app designed for working with local LLMs and MCP servers. Tome manages your MCP servers so there's no fiddling with uv/npm or json files - connect it to Ollama, copy/paste some MCP servers, and chat with an MCP-powered model in seconds.
+
+**Key features:**
+
+- MCP servers are managed by Tome so there is no need to install uv or npm or configure JSON
+- Users can quickly add or remove MCP servers via UI
+- Any tool-supported local model on Ollama is compatible
+
+<details>
+<summary>Screenshots</summary>
+
+![Chat](./screenshots/tome/chat.png)
+![MCP Servers](./screenshots/tome/mcp.png)
+</details>
+
+### Vercade
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/lintyourcode/vercade</td></tr>
+<tr><th align="left">Website</th><td>https://discord.gg/EMnkGjAh9v</td></tr>
+<tr><th align="left">License</th><td>GPL-3.0</td></tr>
+<tr><th align="left">Type</th><td>Discord bot</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+LLM discord bot with MCP support, customizable personality and scheduling
+
+**Key Features:**
+
+- Invokes an LLM agent every time someone sends a message
+- Integrates with MCP servers
+- Supports all well-known LLM providers
+- Supports custom agent instructions
+
+<details>
+<summary>Screenshots</summary>
+
+![Vercade Discord assistant](./screenshots/vercade/k2.png)
+
+</details>
+
+### VS Code GitHub Copilot
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/microsoft/vscode</td></tr>
+<tr><th align="left">Website</th><td>https://code.visualstudio.com/</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Desktop app, Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium (GitHub Copilot subscription)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+VS Code integrates MCP with GitHub Copilot through [agent mode](https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode), allowing direct interaction with MCP-provided tools within your agentic coding workflow. Configure servers in Claude Desktop, workspace or user settings, with guided MCP installation and secure handling of keys in input variables to avoid leaking hard-coded keys.
+
+**Key Features:**
+
+- Support for stdio and server-sent events (SSE) transport
+- Per-session selection of tools per agent session for optimal performance
+- Easy server debugging with restart commands and output logging
+- Tool calls with editable inputs and always-allow toggle
+- Integration with existing VS Code extension system to register MCP servers from extensions
+
+### Windsurf
+
+<table>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
+<tr><th align="left">Website</th><td>https://codeium.com/windsurf</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+The first agentic IDE, and then some. The Windsurf Editor is where the work of developers and AI truly flow together, allowing for a coding experience that feels like literal magic.
+
+<details>
+<summary>Screenshots</summary>
+
+![Main Interface](./screenshots/windsurf/windsurf.png)
+![Adding New MCP Server](./screenshots/windsurf/easy-add-mcp-servers.png)
+![Settings Interface](./screenshots/windsurf/settings-cascade-mcp.png)
 </details>
 
 ### Witsy
@@ -754,6 +1670,270 @@ Zed is a high-performance, multiplayer code editor from the creators of Atom and
 https://github.com/user-attachments/assets/95624731-5469-4b58-a21f-bbb31d9838fa
 
 </details>
+
+### MindPal
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/mindpal-ai/mindpal</td></tr>
+<tr><th align="left">Website</th><td>https://mindpal.io</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+MindPal is a no-code platform for building and deploying AI agents and multi-agent workflows. It enables anyone without technical skills to create powerful AI automation solutions by connecting any AI model with any tool. Build complex workflows where multiple AI agents work together to accomplish tasks, with built-in support for MCP servers and tools.
+
+Key features:
+- No-code AI agent builder
+- Multi-agent workflow orchestration
+- Support for any AI model provider
+- MCP server integration
+- Visual workflow designer
+- Built-in tool marketplace
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mindpal/agent-config.jpg)
+![](./screenshots/mindpal/mcp-integration.jpg)
+
+</details>
+
+### WhatsMCP
+
+<table>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
+<tr><th align="left">Website</th><td>https://wassist.app/mcp/</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Mobile app</td></tr>
+<tr><th align="left">Platforms</th><td>WhatsApp</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>N/A</td></tr>
+</table>
+
+WhatsMCP is a WhatsApp agent that allows you to interact with MCP servers. It is a simple and easy to use tool that allows you to interact with your AI stack from WhatsApp.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/whatsmcp/main.png)
+![](./screenshots/whatsmcp/whatsmcp.gif)
+
+</details>
+
+### Runbear
+
+<table>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
+<tr><th align="left">Website</th><td>https://runbear.io</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web, Slack, MS Teams, HubSpot</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>N/A</td></tr>
+</table>
+
+Runbear enables teams to create AI assistants in communication tools like Slack, MS Teams, and HubSpot. It supports MCP through SSE transport and provides managed MCP servers for easy integration.
+
+Key Features:
+
+* Support for MCP tools in team [communication platforms](https://runbear.io/solutions/integrations/slack/mcp)
+* Integration with remote MCP servers via SSE
+* Managed MCP server options for teams
+
+<details>
+<summary>Screenshots</summary>
+![](./screenshots/runbear/slack-connect-mcp.png)
+</details>
+
+### mcp-client-go
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/yincongcyincong/mcp-client-go/tree/main</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>LIBRARY</td></tr>
+<tr><th align="left">Platforms</th><td></td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>GOLANG</td></tr>
+</table>
+
+mcp-client-go is a Golang client library for the Model Context Protocol (MCP). It allows developers to register and interact with various MCP-based services such as Amap (Gaode Maps) using a unified API.
+### BoltAI
+
+<table>
+<tr><th align="left">GitHub</th><td>N/A</td></tr>
+<tr><th align="left">Website</th><td>https://boltai.com</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Mac & Mobile</td></tr>
+<tr><th align="left">Platforms</th><td>Mac</td></tr>
+<tr><th align="left">Pricing</th><td>Paid</td></tr>
+<tr><th align="left">Programming Languages</th><td>N/A</td></tr>
+</table>
+
+BoltAI is an all-in-one AI chat client. It supports MCP tools calling, dynamic MCP server management and in-context server control.
+
+Key features:
+- Multiple AI providers & models
+- MCP server integration
+- Native app: fast & powerful
+- Import configuration from Claude or Cursor
+- Built-in configuration editor
+
+<details>
+<summary>Screenshots</summary>
+
+![CleanShot 2025-04-15 at 22 30 45@2x](https://github.com/user-attachments/assets/0263d468-dbbb-4036-87ec-169329687cdf)
+![CleanShot 2025-04-15 at 22 45 30@2x](https://github.com/user-attachments/assets/a9b3a128-0558-4f3b-8f5e-a2fa0759f2b7)
+</details>
+
+### Argo-LocalAI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/xark-argo/argo</td></tr>
+<tr><th align="left">Website</th><td>https://xark-argo.com</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python/TypeScript</td></tr>
+</table>
+
+Argo is a localized large model agent builder. Build agents with local & Cloud LLMs, RAG, MCP tools. Users can share these creations in our community, download AI agents from others.
+
+Key features:
+- Download opensource LLMs from ollama, huggingface or modelscope with one click.
+- Use local docs for RAG, sync with directories.
+- Support MCP tools.
+- Manage Agents with individual prompt, model, knowledge and MCP tools.
+<details>
+<summary>Screenshots</summary>
+
+Agent Management
+
+![image](https://github.com/user-attachments/assets/27d0650c-608a-434b-bb4e-f7e3d11f90dc)
+
+Model Management
+
+![image](https://github.com/user-attachments/assets/e5581d80-09cd-469e-b26d-5c1c446b37dd)
+
+Knowledge Management
+
+![image](https://github.com/user-attachments/assets/126e9ab9-a343-460c-9a9b-c2e94c58c356)
+
+MCP Management
+
+![image](https://github.com/user-attachments/assets/8cb04ffb-56bc-4a54-b719-ce944cf194da)
+
+![image](https://github.com/user-attachments/assets/d8e094cb-4346-45fe-99d7-e3a26f1ffdfb)
+</details>
+
+### MCPCLIHost
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/vincent-pli/mcp-cli-host</td></tr>
+<tr><th align="left">Website</th><td></td></tr>
+<tr><th align="left">License</th><td>Apache-2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+A CLI host application that enables Large Language Models (LLMs) to interact with external tools through the Model Context Protocol (MCP).
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/mcpclihost/console.png)
+
+</details>
+
+
+### Zin-MCP-Client
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/zinja-coder/zin-mcp-client</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python</td></tr>
+</table>
+
+Lightweight, Fast, Simple, CLI-Based MCP Client for STDIO MCP Servers, to fill the gap and provide bridge between your local LLMs running Ollama and MCP Servers. Specially crafted for Zin MCP Servers for reverse engineering.
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/zin-mcp-client/zin_mcp_1.png)
+![example2](./screenshots/zin-mcp-client/zin_mcp_2.png)
+
+</details>
+
+
+### Agent-cli
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/belowthetree/agent-cli</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>GPLv3</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Rust</td></tr>
+</table>
+
+Lightweight, Fast, Simple, CLI MCP Client for MCP Servers. Supporting TUI, stdio and NapCat. Any LLM API compatible with the OpenAI API, such as Ollama and DeepSeek, can be configured for use.
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/agent-cli/agentcli.gif)
+![example2](./screenshots/agent-cli/tui.gif)
+
+</details>
+
+
+### Qordinate
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://qordinate.ai/</td></tr>
+<tr><th align="left">License</th><td>-</td></tr>
+<tr><th align="left">Type</th><td>Chatbot</td></tr>
+<tr><th align="left">Platforms</th><td>[Slack](https://qordinate.ai/slack), [WhatsApp](https://qordinate.ai/whatsapp), (coming soon - iMessage, MS Teams)</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>-</td></tr>
+</table>
+
+Qordinate is a personal assistant that talks on your behalf, it knows what to share, when to share and with whom to share. It's available across WhatsApp and Arattai today, with other platforms coming soon. [Learn more](https://qordinate.ai).
+
+<details>
+<summary>Screenshots</summary>
+
+![example1](./screenshots/qordinate/slack.png)
+![example2](./screenshots/qordinate/app.png)
+![example3](./screenshots/qordinate/whatsapp.png)
+
+</details>
+
+### PraisonAI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/MervinPraison/PraisonAI</td></tr>
+<tr><th align="left">Website</th><td>https://docs.praison.ai</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Python library, CLI, Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, JavaScript/TypeScript</td></tr>
+</table>
+
+PraisonAI is a production-ready Multi-AI Agents framework with native MCP integration. Features fastest agent instantiation (3.77μs), 100+ LLM support via LiteLLM, agentic workflows (route/parallel/loop/repeat), built-in memory, and self-reflection. Available as Python & JavaScript SDKs.
 
 ## Servers
 
