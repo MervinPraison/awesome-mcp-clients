@@ -881,6 +881,13 @@ https://github.com/user-attachments/assets/3f8df448-1c81-4ff2-8598-c48283a4dc00
 </table>
 
 LangBot is an open-source platform for creating LLM based instant messaging bots. It supports multi platforms like Discord, Telegram, WeChat, QQ. Currently supports LLMs from OpenAI, Anthropic, DeepSeek, Ollama, and more. And easy for users to create agents with MCP or plugins. Users can also customize their experience through WebUI, or create plugins to extend the functionality of the bot.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/langbot/langbot.png)
+</details>
+
 ### Klavis AI
 
 <table>
@@ -927,7 +934,6 @@ Kiro is an AI assistant and IDE built to assist developers. Kiro helps you do yo
 <details>
 <summary>Screenshots</summary>
 
-![](./screenshots/langbot/langbot.png)
 ![Kiro Interface](./screenshots/kiro/kiro-interface.png)
 ![MCP Integration](./screenshots/kiro/mcp-integration.png)
 
