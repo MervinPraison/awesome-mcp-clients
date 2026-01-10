@@ -189,7 +189,6 @@ AIaW is a cross-platform, full-featured and lightweight AI Chat client with full
 ![](./screenshots/aiaw/plugins.png)
 ![](./screenshots/aiaw/dialog.png)
 ![](./screenshots/aiaw/dark.png)
-<img src="./screenshots/aiaw/mobile.png" width="400">
 
 </details>
 
@@ -205,12 +204,15 @@ AIaW is a cross-platform, full-featured and lightweight AI Chat client with full
 </table>
 
 AstrBot is an Easy-to-use multi-platform LLM chatbot and development framework Platform supports QQ, QQ channel, Telegram, WeChat, Qiwei, Lark | MCP server, OpenAI, DeepSeek, Gemini, Silicon Flow, Dark Side of the Moon, Ollama, OneAPI, Dify, etc. Comes with WebUI.
+
 <details>
 <summary>Screenshots</summary>
 
 ![](./screenshots/astrbot/plugins.png)
 ![](./screenshots/astrbot/chat_example.png)
 ![](./screenshots/astrbot/chat_qq_example_without_avater.png)
+</details>
+
 ### AnythingLLM
 
 <table>
