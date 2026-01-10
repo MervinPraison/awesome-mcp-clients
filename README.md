@@ -42,6 +42,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Cursor](#cursor)
     - [Continue](#continue)
     - [DeepChat](#deepchat)
+    - [DocsGPT](#docsgpt)
     - [Dolphin-MCP](#dolphin-mcp)
     - [FLUJO](#flujo)
     - [Goose](#goose)
@@ -480,6 +481,27 @@ DeepChat is a cross-platform desktop AI assistant, MCP client. DeepChat brings t
 
 ![](./screenshots/deepchat/deepchat.png)
 ![](./screenshots/deepchat/setting.png)
+
+</details>
+
+### DocsGPT
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/arc53/DocsGPT</td></tr>
+<tr><th align="left">Website</th><td>https://www.docsgpt.cloud//</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app, Self-hosted</td></tr>
+<tr><th align="left">Platforms</th><td>Web, Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, TypeScript</td></tr>
+</table>
+
+DocsGPT is a privacy-focused, open-source AI platform designed to create intelligent agents and enterprise search solutions. As an MCP client, it enables agents to connect with external tools and APIs securely.
+
+<details>
+<summary>Screenshots</summary>
+
+![](./screenshots/docsgpt/docsgpt.gif)
 
 </details>
 
