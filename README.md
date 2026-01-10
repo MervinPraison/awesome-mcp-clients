@@ -943,6 +943,8 @@ Chat and create automations:
 Save playbooks:
 
 ![](./screenshots/lutra/create-playbook.gif)
+</details>
+
 ### mcp-agent
 
 <table>
