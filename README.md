@@ -213,7 +213,7 @@ AstrBot is an Easy-to-use multi-platform LLM chatbot and development framework P
 ![sync_mcp_server](./screenshots/astrbot/sync_deployed_mcp_server_from_modelscope.png)
 ![view_tools](./screenshots/astrbot/plugins.png)
 ![webchat_interface](./screenshots/astrbot/chat_example.png)
-![webchat_example](./screenshots/astrbot/chat_qq_example_without_avater.png)
+![webchat_example](./screenshots/astrbot/chat_qq_example_without_avatar.png)
 </details>
 
 ### AnythingLLM
