@@ -184,10 +184,22 @@ https://github.com/user-attachments/assets/a27494c5-437d-481c-a25f-74cfa5a2bc45
 <tr><th align="left">Programming Languages</th><td>Python, Vue</td></tr>
 </table>
 
-A scalable, enterprise-ready web client for managing remote MCP (Model Context Protocol) servers, featuring a modern UI for intelligent agent automation and tool execution.
+A scalable, enterprise-ready web client for remote MCP servers featuring human-in-the-loop tool permissions and intelligent agent automation.
+
+**Key Features:**
+- **Web Client**: Modern interface
+- **Remote MCP Servers**: Connectivity
+- **Scalability/Enterprise**: Ready for business use
+- **Human-in-the-loop**: Security/oversight
+- **Tool Permissions**: Granular control
 
 <details>
 <summary>Screenshots</summary>
+
+![Chat Interface](./screenshots/agent-bridge/chat.png)
+![Settings & Connections](./screenshots/agent-bridge/connections.png)
+![Repository Search](./screenshots/agent-bridge/repo_search.png)
+![Tool Configuration](./screenshots/agent-bridge/tool_config.png)
 
 </details>
 
