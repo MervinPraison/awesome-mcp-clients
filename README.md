@@ -28,6 +28,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [askit-mcp](#askit-mcp)
     - [eechat](#eechat)
     - [5ire](#5ire)
+    - [Agent Bridge](#agent-bridge)
     - [AIaW](#aiaw)
     - [AstrBot](#AstrBot)
     - [AnythingLLM](#anythingllm)
@@ -168,6 +169,25 @@ An open-source, cross-platform desktop application that seamlessly connects with
 <summary>Screenshots</summary>
 
 https://github.com/user-attachments/assets/a27494c5-437d-481c-a25f-74cfa5a2bc45
+
+</details>
+
+### Agent Bridge
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/ramblinghermit0403/agent_bridge</td></tr>
+<tr><th align="left">Website</th><td>-</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Python, Vue</td></tr>
+</table>
+
+A scalable, enterprise-ready web client for managing remote MCP (Model Context Protocol) servers, featuring a modern UI for intelligent agent automation and tool execution.
+
+<details>
+<summary>Screenshots</summary>
 
 </details>
 
