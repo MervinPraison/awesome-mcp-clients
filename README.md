@@ -184,7 +184,7 @@ https://github.com/user-attachments/assets/a27494c5-437d-481c-a25f-74cfa5a2bc45
 <tr><th align="left">Programming Languages</th><td>Python, Vue</td></tr>
 </table>
 
-A scalable, enterprise-ready web client for remote MCP servers featuring human-in-the-loop tool permissions and intelligent agent automation.
+A deployable web-based agent platform for remote MCP servers featuring human-in-the-loop tool permissions, enabling intelligent automation.
 
 **Key Features:**
 - **Web Client**: Modern interface
