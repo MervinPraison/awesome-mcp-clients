@@ -97,6 +97,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [BoltAI](#boltai)
     - [Argo-LocalAI](#argo-localai)
     - [MCPCLIHost](#mcpclihost)
+    - [AdaL](#adal)
     - [Agent-cli](#agent-cli)
     - [Zin MCP Client](#zin-mcp-client)
     - [Qordinate](#qordinate)
@@ -1896,6 +1897,21 @@ Lightweight, Fast, Simple, CLI-Based MCP Client for STDIO MCP Servers, to fill t
 ![example2](./screenshots/zin-mcp-client/zin_mcp_2.png)
 
 </details>
+
+
+### AdaL
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/SylphAI-Inc/adal-cli</td></tr>
+<tr><th align="left">Website</th><td>https://sylph.ai</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free tier available</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, Python</td></tr>
+</table>
+
+AdaL is a self-evolving AI coding agent with full MCP support. Compatible with Claude Code skills and plugins, it features multi-model support (Claude, GPT, Gemini), web research capabilities, and autonomous code editing.
 
 
 ### Agent-cli
