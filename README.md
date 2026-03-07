@@ -30,6 +30,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [5ire](#5ire)
     - [AIaW](#aiaw)
     - [AstrBot](#AstrBot)
+    - [Autohand Code CLI](#autohand-code-cli)
     - [AnythingLLM](#anythingllm)
     - [BrowseWiz](#browsewiz)
     - [Canvas MCP Client](#canvas-mcp-client)
@@ -216,6 +217,20 @@ AstrBot is an Easy-to-use multi-platform LLM chatbot and development framework P
 ![webchat_interface](./screenshots/astrbot/chat_example.png)
 ![webchat_example](./screenshots/astrbot/chat_qq_example_without_avatar.png)
 </details>
+
+### Autohand Code CLI
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/autohandai/code-cli</td></tr>
+<tr><th align="left">Website</th><td>https://www.autohand.ai/code/</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI, VS Code/Zed extension</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+Autohand Code CLI is a self-evolving autonomous coding agent with native MCP integration for external tool access. It supports 40+ built-in tools, multiple LLM providers (OpenRouter, Anthropic, OpenAI, Ollama), semantic code search, and a modular skills system, all from the terminal.
 
 ### AnythingLLM
 
