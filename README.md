@@ -83,6 +83,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [SeekChat](#seekchat)
     - [Simple AI](#simple-ai)
     - [Tambo](#tambo)
+    - [Taskade](#taskade)
     - [Tester MCP Client](#tester-mcp-client)
     - [Tiles Notebook](#tiles-notebook)
     - [Tome](#tome)
@@ -1483,6 +1484,28 @@ Simple AI (simple-ai-io) is a command-based web/cli application, supports MCP.
 ![](./screenshots/tambo/client-side-mcp.png)
 
 </details>
+
+### Taskade
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/taskade/taskade</td></tr>
+<tr><th align="left">Website</th><td>https://taskade.com</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web app, Desktop app, Mobile app, Browser extension</td></tr>
+<tr><th align="left">Platforms</th><td>Web, MacOS, Windows, Linux, iOS, Android, Chrome, Firefox, Edge</td></tr>
+<tr><th align="left">Pricing</th><td>Freemium</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+[Taskade](https://taskade.com) is an AI-native workspace platform that connects to MCP servers for project management, AI agent orchestration, and workflow automation. Features custom AI agents with memory and knowledge bases, 8 workspace views, and real-time multiplayer collaboration.
+
+Key features:
+
+- Connects to MCP servers including its own [official MCP server](https://github.com/taskade/mcp) with 50+ tools
+- Custom AI agents with memory, knowledge bases, and tool integration
+- 8 workspace views (list, board, table, mind map, org chart, calendar, gallery, action)
+- Real-time multiplayer collaboration across all platforms
+- Cross-platform: Web, Desktop (Mac/Windows/Linux), Mobile (iOS/Android), Browser Extensions (Chrome/Firefox/Edge)
 
 ### Tester MCP Client
 
