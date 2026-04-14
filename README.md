@@ -110,6 +110,21 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [PraisonAI](#praisonai)
   - [Servers](#servers)
 
+### OpenClaw
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/openclaw/openclaw</td></tr>
+<tr><th align="left">Website</th><td>https://openclaw.ai</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Self-hosted AI Agent</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS, Docker</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Node.js, TypeScript</td></tr>
+</table>
+
+**OpenClaw** is a powerful open-source AI agent that connects to multiple messaging platforms (WhatsApp, Telegram, Discord) and supports Model Context Protocol (MCP) for tool integration. It features a robust plugin ecosystem and automated workflows.
+
+
 ### askit-mcp
 
 <table>
