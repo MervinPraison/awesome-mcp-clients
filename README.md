@@ -767,6 +767,9 @@ Future versions are expected to include additional features such as voice system
 <summary>Screenshots</summary>
 
 <https://github.com/user-attachments/assets/1fcb0db8-5798-4745-8711-4b93198e36cc>
+
+</details>
+
 ### Enola
 
 <table>
