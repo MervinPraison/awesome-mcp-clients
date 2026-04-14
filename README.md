@@ -48,6 +48,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Cursor](#cursor)
     - [Continue](#continue)
     - [DeepChat](#deepchat)
+    - [Dexto](#dexto)
     - [DocsGPT](#docsgpt)
     - [Dolphin-MCP](#dolphin-mcp)
     - [Fastchat MCP](#fastchat-mcp)
@@ -625,6 +626,20 @@ DeepChat is a cross-platform desktop AI assistant, MCP client. DeepChat brings t
 ![](./screenshots/deepchat/setting.png)
 
 </details>
+
+### Dexto
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/truffle-ai/dexto</td></tr>
+<tr><th align="left">Website</th><td>https://dexto.ai</td></tr>
+<tr><th align="left">License</th><td>Elastic 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI, Web app</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, MacOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+Dexto is an open agent harness that ships with a production-ready coding agent and native MCP client support. It can connect to MCP servers for tools, resources, and prompts while also providing its own MCP tool packages (filesystem, process, task, plan).
 
 ### DocsGPT
 
