@@ -77,6 +77,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [MCP SuperAssistant](#mcp-superassistant)
     - [Nerve](#nerve)
     - [NextChat](#nextchat)
+    - [Octomind](#octomind)
     - [oterm](#oterm)
     - [Slack MCP Client](#slack-mcp-client)
     - [Runbear](#runbear)
@@ -1303,6 +1304,27 @@ Nerve is an ADK ( Agent Development Kit ) and CLI designed to be a simple yet po
 <summary>Screenshots</summary>
 
 [![asciicast](https://asciinema.org/a/710433.svg)](https://asciinema.org/a/710433)
+
+</details>
+
+### Octomind
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/muvon/octomind</td></tr>
+<tr><th align="left">Website</th><td>https://muvon.io</td></tr>
+<tr><th align="left">License</th><td>Apache 2.0</td></tr>
+<tr><th align="left">Type</th><td>CLI</td></tr>
+<tr><th align="left">Platforms</th><td>Linux, Windows, MacOS</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>Rust</td></tr>
+</table>
+
+Session-based AI development assistant with MCP support, 7 LLM providers, and extensible architecture. Features plan-first workflow, semantic code search, and persistent memory.
+
+<details>
+<summary>Screenshots</summary>
+
+[![asciicast](https://asciinema.org/a/wpZmOSOgFXp8HRzTltncgN7e3.svg)](https://asciinema.org/a/wpZmOSOgFXp8HRzTltncgN7e3)
 
 </details>
 
