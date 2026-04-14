@@ -1463,6 +1463,22 @@ Simple AI (simple-ai-io) is a command-based web/cli application, supports MCP.
 
 </details>
 
+### SwarmClaw
+
+<table>
+<tr><th align="left">GitHub</th><td>https://github.com/swarmclawai/swarmclaw</td></tr>
+<tr><th align="left">Website</th><td>https://swarmclaw.ai</td></tr>
+<tr><th align="left">License</th><td>MIT</td></tr>
+<tr><th align="left">Type</th><td>Desktop app, CLI, Docker</td></tr>
+<tr><th align="left">Platforms</th><td>Windows, macOS, Linux</td></tr>
+<tr><th align="left">Pricing</th><td>Free</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript</td></tr>
+</table>
+
+Self-hosted multi-agent AI runtime. Acts as both an MCP client and an MCP server: connects agents to MCP servers and exposes its own agents as MCP tools for other clients. Supports 23+ LLM providers, persistent memory, skills, schedules, sub-agent spawning, and inbound connectors for Discord, Slack, Telegram, WhatsApp, Teams, and Matrix.
+
+`npm install -g @swarmclawai/swarmclaw`
+
 ### Tambo
 
 <table>
