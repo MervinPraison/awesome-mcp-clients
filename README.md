@@ -245,8 +245,8 @@ Learn more on the [website](https://www.agent-one.dev), [docs](https://docs.agen
 <details>
 <summary>Screenshots</summary>
 
-![](./screenshots/agent-one/1.png)
-![](./screenshots/agent-one/2.png)
+![Screenshot of AgentOne chat UI](./screenshots/agent-one/1.png)
+![Screenshot of AgentOne settings page on account tab](./screenshots/agent-one/2.png)
 
 </details>
 
