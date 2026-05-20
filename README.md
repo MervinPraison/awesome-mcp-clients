@@ -31,6 +31,7 @@ A curated list of awesome Model Context Protocol (MCP) clients.
     - [Agent Bridge](#agent-bridge)
     - [AgentOne](#agentone)
     - [AIaW](#aiaw)
+    - [Ano](#ano)
     - [AstrBot](#AstrBot)
     - [Autohand Code CLI](#autohand-code-cli)
     - [AnythingLLM](#anythingllm)
@@ -272,6 +273,20 @@ AIaW is a cross-platform, full-featured and lightweight AI Chat client with full
 ![](./screenshots/aiaw/dark.png)
 
 </details>
+
+### Ano
+
+<table>
+<tr><th align="left">GitHub</th><td>-</td></tr>
+<tr><th align="left">Website</th><td>https://ano.chat/</td></tr>
+<tr><th align="left">License</th><td>Proprietary</td></tr>
+<tr><th align="left">Type</th><td>Web, Desktop app</td></tr>
+<tr><th align="left">Platforms</th><td>macOS, Windows, Linux, Web</td></tr>
+<tr><th align="left">Pricing</th><td>Free (during beta)</td></tr>
+<tr><th align="left">Programming Languages</th><td>TypeScript, Rust, Swift</td></tr>
+</table>
+
+**Ano** is a collaborative chat and workspace for devs that features a native in-app terminal and integrated AI (like Claude Code). It is built as an MCP client, allowing users to run local CLIs, trigger custom automations, and connect to any Model Context Protocol (MCP) server directly from their channels.
 
 ### AstrBot
 <table>
