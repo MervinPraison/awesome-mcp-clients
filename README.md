@@ -5,6 +5,9 @@
 
 A curated list of awesome Model Context Protocol (MCP) clients.
 
+> [!NOTE]
+> For most up to date MCP client list, please refer to https://glama.ai/mcp/clients
+
 * [What is MCP?](#what-is-mcp)
 * [Community](#community)
 * [Clients](#clients)
